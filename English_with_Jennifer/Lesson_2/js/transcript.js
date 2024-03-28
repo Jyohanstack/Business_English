@@ -5,7 +5,7 @@ const video = document.getElementById('player');
 const player = new YT.Player(video, {
     height: '100%',
     width: '100%',
-    videoId: '7jbStLLnNUo', // Replace with your video ID
+    videoId: 'NnVJEZjehsc', // Replace with your video ID
     playerVars: {
         'controls': 1,
         'disablekb': 1,
