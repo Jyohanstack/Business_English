@@ -1,0 +1,441 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: #100c26; /* Primary color for the header */
+    color: yellow; /* Text color for the header */
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight:lighter;
+    margin-bottom: 0.5rem;
+    text-align:center;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 2;
+    display: block;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #0056b3; /* Slightly darker shade for navigation */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #004080; /* Darker shade on hover */
+    color: #fff;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #eea154;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Content Styles */
+.content {
+    flex: 2;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 1px solid rgb(205, 195, 195);
+}
+
+.content .main-topic {
+    color: rgb(87, 87, 238);
+}
+
+.content p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1rem;
+}
+
+.questions p {
+    font-size: 1.25rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 1rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #007BFF;
+}
+
+li a::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #007BFF;
+    left: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+}
+
+li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Advertisement Styles */
+.advertisement {
+    flex: 1;
+    max-width: 35%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.advertisement h2 {
+    font-size: 1.25rem;
+    color: #333333fc;
+    text-align: center;
+    border-bottom: 1px solid #333333fc;
+}
+
+.advertisement #boost-fluency,
+.advertisement #job-opportunity,
+.advertisement #contact-me {
+    margin-top: 4rem;
+}
+
+
+/* Styles for Find an English Tutor */
+#find-tutor,
+#apply-tutor,
+#hostinger {
+    color: #007BFF;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+#find-tutor:hover,
+#apply-tutor:hover,
+#hostinger:hover {
+    color: #0056b3;
+}
+
+#find-tutor::before,
+#apply-tutor::before,
+#hostinger::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #007BFF;
+    left: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+}
+
+#find-tutor:hover::before,
+#apply-tutor:hover::before,
+#hostinger:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Questions Styles */
+.questions li {
+    font-size: 1.25rem;
+}
+
+/* Advertisement Text Styles */
+.advertisement p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1rem;
+}
+
+.advertisement p span {
+    color: #333333fc;
+    font-size: 1.125rem;
+}
+
+/* Advertisement Meta Styles */
+.advertisement #author-name {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.advertisement #advertisement-time,
+.advertisement #advertisement-date {
+    font-size: 1.125rem;
+    color: #777;
+    padding: 5px;
+    border: 1px solid #777;
+    border-radius: 2px;
+}
+
+
+
+#example-sentence{
+    color: rgb(15, 89, 102);
+    font-weight: bold;
+}
+.sentence-patter-analysis{
+    color: darkgreen;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* Popup Styles */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+.amazingtalkerpic{
+    width: 90%;
+}
+
+.amazingtalkerpic1{
+    width: 50%;
+}
+
+.preplypic{
+    width: 90%;
+}
+
+/* Media Query for Smaller Screens (less than 600px) */
+@media screen and (max-width: 600px) {
+    
+    .sidebar {
+        width: 0;
+    }
+
+    .sidebar a {
+        text-align: center;
+        padding: 1.5rem;
+        display: block;
+    }
+
+    .main-content {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        flex: 1;
+        padding: 0.8rem;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+
+    .advertisement {
+        flex: 1;
+        max-width: 100%;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hamburger {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+
+    .hamburger div {
+        width: 1.25rem;
+        height: 0.125rem;
+        margin: 0.25rem 0;
+    }
+
+    nav a {
+        padding: 0.75rem;
+        font-size: 0.7rem;
+    }
+
+    .sidebar {
+        padding-top: 1.5rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+
+    .content h2 {
+        font-size: 0.9rem;
+        color: #333;
+    }
+
+
+    .questions p {
+        font-size: 1rem;
+    }
+
+
+
+    .questions ol {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .advertisement h2 {
+        font-size: 1rem;
+    }
+
+    #find-tutor,
+    #apply-tutor {
+        font-size: 0.875rem;
+    }
+
+    .questions li,
+    .advertisement p {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    .advertisement p span {
+        font-size: 1.125rem;
+    }
+
+
+
+    .advertisement #advertisement-time,
+.advertisement #advertisement-date {
+    font-size: 0.9em;
+    
+}
+
+    footer {
+        padding: 1rem;
+        font-size: 0.875rem;
+        margin-top: 1rem;
+    }
+}
