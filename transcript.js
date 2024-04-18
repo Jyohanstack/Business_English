@@ -29,7 +29,7 @@ function onPlayerStateChange(event) {
 }
 
 function loadTranscriptData() {
-    fetch('lessontranscript.json') // Replace with the path to your JSON file
+    fetch('lessontranscript136.json') // Replace with the path to your JSON file
         .then(response => response.json())
         .then(data => {
             data.forEach(entry => {
