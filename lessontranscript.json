@@ -1,0 +1,544 @@
+[
+  
+ 
+  { 
+    "speaker": "",
+    "time": "00:00",
+    "startTime": "00:00",
+    "duration": "18 seconds",
+    "text": "Hi Matt, here. Are you looking for another great podcast? Our friends at Harvard Business Review have a podcast you might like: HBR IdeaCast. Every Tuesday, they bring you the world's best business and leadership experts to help you manage up, manage a business, and manage yourself."
+  },
+  { 
+    "speaker": "",
+    "time": "00:18",
+    "startTime": "00:18",
+    "duration": "23 seconds",
+    "text": "I had a fantastic time being a guest on IdeaCast. We had fun discussing specific skills for spontaneous speaking, like making small talk and giving feedback, and how to manage speaking anxiety. I always learn so much from IdeaCast, and I know you will too. Listen to HBR IdeaCast for free wherever you get your podcasts. It's all you need to lead."
+  },
+  { 
+    "speaker": "",
+    "time": "00:41",
+    "startTime": "00:41",
+    "duration": "32 seconds",
+    "text": "One of the most challenging communication situations we confront is conflict and disagreement. I'm Matt Abrahams, and I teach strategic communication at Stanford Graduate School of Business. Welcome to Think Fast, Talk Smart, the podcast. Today, I'm excited to chat with Julia Minson. Julia is an associate professor of public policy at the Harvard Kennedy School and a graduate of the Stanford psychology program with her PhD."
+  },
+  { 
+    "speaker": "Julia",
+    "time": "01:13",
+    "startTime": "01:13",
+    "duration": "18 seconds",
+    "text": "Her work focuses on decision-making, conflict negotiations, and the psychology of disagreement. She explores how people engage with opinions, judgments, and decisions that are different from their own and investigates the psychological biases that hinder maximizing the benefit of collaboration."
+  },
+  { 
+    "speaker": "",
+    "time": "01:31",
+    "startTime": "01:31",
+    "duration": "03 seconds",
+    "text": "Welcome, Julia. I look forward to our conversation."
+  },
+  { 
+    "speaker": "Julia",
+    "time": "01:34",
+    "startTime": "01:34",
+    "duration": "03 seconds",
+    "text": "Thanks, Matt. I'm really excited to be here."
+  },
+  { 
+    "speaker": "",
+    "time": "01:37",
+    "startTime": "01:37",
+    "duration": "07 seconds",
+    "text": "All right, let's get started. So I'm curious, how did you get into the work you do? I believe you looked at decision-making to begin."
+  },
+  { 
+    "speaker": "Julia",
+    "time": "01:44",
+    "startTime": "01:44",
+    "duration": "23 seconds",
+    "text": "I was always really interested in collaboration and teamwork. In fact, since my undergraduate days, I wanted to understand how people work together, specifically how they make decisions together, how they navigate disagreement, and when people have different opinions. And one of the things that I find particularly interesting about disagreement is that people believe it to be a good thing."
+  },
+  { 
+    "speaker": "",
+    "time": "02:07",
+    "startTime": "02:07",
+    "duration": "19 seconds",
+    "text": "Disagreement is good because it brings different points of view to the table. It gets people engaged. It gives you the ability to correct errors or have more creative decisions. And yet, at the same time, it's very, very clear that people don't like it, and it often then leads to conflict and negative emotions."
+  },
+  { 
+    "speaker": "",
+    "time": "02:26",
+    "startTime": "02:26",
+    "duration": "11 seconds",
+    "text": "These two sides of the coin, this idea that on one hand it's good for you, on the other hand, people avoid it like the plague, it's got me thinking about, well, what can we do to disagree better? "
+  },
+  { 
+    "speaker": "",
+    "time": "02:37",
+    "startTime": "02:37",
+    "duration": "16 seconds",
+    "text": "And what have you found? What are some things that we can do to disagree better? I personally am very conflict-averse, and I try to avoid conflict as best I can. What are things we can do to be better at disagreeing and to help us achieve some of the goals we have?"
+  },
+
+  { 
+    "speaker": "Julia",
+    "time": "02:53",
+    "startTime": "02:53",
+    "duration": "20 seconds",
+    "text": "You being conflict-averse, I think, makes you just a person, right? Everybody's conflict-averse. Conflict is no fun. Nobody likes it. But there is sort of a really important wrinkle there, which is disagreement and conflict are not actually the same thing. One of the reasons we struggle with disagreement is because we equate it with conflict."
+  },
+  { 
+    "speaker": "",
+    "time": "03:13",
+    "startTime": "03:13",
+    "duration": "16 seconds",
+    "text": "Disagreement is, 'I think we should do this,' and 'You think we should do that,' and we have a conversation about it. And I hear your views, and you hear my views, and we might reach consensus, or we might walk away disagreeing, but nobody has any particularly strong feelings about it."
+  },
+
+  { 
+    "speaker": "",
+    "time": "03:29",
+    "startTime": "03:29",
+    "duration": "34 seconds",
+    "text": " Conflict, by contrast, has two components. Obviously, you have the disagreement to start with, but then also, usually, an important precursor of conflict is that I attribute disagreement to there being something wrong with you. So it's not just that we disagree because you know things that I don't know or because we've had different experiences or because we've looked at different data. It's because you are not smart enough to get it, or you are somehow biased or have some kind of self-nefarious motive that's preventing you from getting."
+  },
+
+  { 
+    "speaker": "Julia",
+    "time": "04:06",
+    "startTime": "04:06",
+    "duration": "20 seconds",
+    "text": "And so the way we go from disagreement to conflict is by making negative attributions about the source of the disagreement and basically blaming the other person, saying, 'You know, something is screwed up about them.' And then, once I go down that path in my mind, of course, that brings out the negative emotions that we commonly associate with conflict."
+  },
+  { 
+    "speaker": "",
+    "time": "04:26",
+    "startTime": "04:26",
+    "duration": "9 seconds",
+    "text": "And so you get into what people then call a conflict spiral where the more I feel these things about you and the more I express them, the more you feel those things about me."
+  },
+
+  { 
+    "speaker": "Julia",
+    "time": "04:35",
+    "startTime": "04:35",
+    "duration": "19 seconds",
+    "text": " So I think the pre-answer to your question of what to do about it is first of all to recognize the difference between those two things and think about, well, okay, if disagreement is good and conflict is, at the very least, unpleasant, how do we stay in the domain of disagreement before it becomes conflict?"
+  },
+
+  { 
+    "speaker": "Matt Abrahams",
+    "time": "04:54",
+    "startTime": "04:54",
+    "duration": "28 seconds",
+    "text": "I really appreciate that distinction, and I think many of us, myself included, inflate the two. So let's tease it apart. When it comes to disagreeing better and trying to leverage the benefits of disagreement, what are some things we can do to disagree better? I find myself often invoking persuasive techniques trying to persuade people to my point of view and I'm not sure that's the best thing to do.    "
+  },
+
+  { 
+  "speaker": "",
+  "time": "05:22",
+  "startTime": "05:22",
+  "duration": "14 seconds",
+  "text": "We actually did a series of studies a couple of years ago where we asked people who disagree on a variety of things, looked at people who disagree about all matter of topics. What are their goals in talking to somebody they disagree with?"
+},
+{ 
+  "speaker": "",
+  "time": "05:36",
+  "startTime": "05:36",
+  "duration": "22 seconds",
+  "text": "It turns out that people offer a mix of two things: either they offer what you named, which is the desire to persuade the other party, 'I want to convince them that I'm right, that they're wrong, that my arguments are better and make them change their mind.' And then the other thing people bring up is that they want to learn from the conversation."
+},
+{ 
+  "speaker": "",
+  "time": "05:58",
+  "startTime": "05:58",
+  "duration": "23 seconds",
+  "text": "That they want to understand where the other person is coming from, and they want to get a better sense of the arguments for the opposing perspective. And what's really interesting is that people name both of those categories of goals for themselves in roughly equal proportion, but they seem to believe that other people don't want to learn about them."
+},
+{ 
+  "speaker": "",
+  "time": "06:21",
+  "startTime": "06:21",
+  "duration": "11 seconds",
+  "text": "So I'm the kind of person that wants to both persuade and understand, but this jerk over here only wants to persuade me, and they have no interest in learning about me."
+},
+
+{ 
+  "speaker": "",
+  "time": "06:32",
+  "startTime": "06:32",
+  "duration": "26 seconds",
+  "text": " There's a lot of advice out there, both in the academic literature and the practitioner literature, that says to navigate disagreement better, you need to be curious about the other person's point of view.But the problem is people think they're already doing it people think that they are curious and that they do want to learn about the other person.  "
+},
+{ 
+  "speaker": "",
+  "time": "06:58",
+  "startTime": "06:58",
+  "duration": "29 seconds",
+  "text": "It's the other person that's the problem. All this advice we're giving to folks about being curious, I think, to some extent, is falling on deaf ears because we're telling people to do the thing they already think they're doing just fine. And what seems to be happening is I think I'm doing it, but you are not recognizing it, so we're not giving people credit, and that makes the frustration mount."
+},
+{ 
+  "speaker": "",
+  "time": "07:27",
+  "startTime": "07:27",
+  "duration": "21 seconds",
+  "text": "So, a lot of the work we've been doing as a consequence of that research is saying, 'Well, let's stop telling people to feel curious, and let's start telling people to act curious.' That turns out to be, on one hand, very easy, and on the other hand, something people are extremely reluctant to do."
+},
+{ 
+  "speaker": "",
+  "time": "07:48",
+  "startTime": "07:48",
+  "duration": "25 seconds",
+  "text": "Let's tease that out because I find that really useful. It's very practical, so instead of just thinking that we are being curious, connecting, and empathetic, we really have to demonstrate that. So, what are some of the very tactical things that you advise that we do to demonstrate our curiosity? Is it paraphrasing? Is it asking questions? What are those things that we can do? "
+},
+{ 
+  "speaker": "",
+  "time": "08:13",
+  "startTime": "08:13",
+  "duration": "22 seconds",
+  "text": "So, I think the simplest thing is saying in words that you want to learn about the other person's perspective. For example, we've done studies where we ask participants in a study to make an argument on a topic, and every participant has some point of view. Then we ask them to write a paragraph about what their point of view is."
+},
+{ 
+  "speaker": "",
+  "time": "08:35",
+  "startTime": "08:35",
+  "duration": "15 seconds",
+  "text": "We then take that paragraph, and then we stick two sentences on the beginning and two sentences on the end, and the sentences say something like, 'I understand this is a really complicated topic, and I would love to understand your point of view,' and then their old paragraph comes after that. 'I believe blah blah blah blah,' and in the end, we say, 'But I get that some people might disagree, and I would like to learn about your perspective.'"
+},
+{ 
+  "speaker": "",
+  "time": "09:03",
+  "startTime": "09:03",
+  "duration": "23 seconds",
+  "text": "So we didn't change anything about the person's argument. We didn't ask them to do anything sophisticated like perspective taking. We just slap two sentences on the beginning and on the end that use very simple language to say, 'I want to learn about your perspective,' and then we take that text and we send it to other participants who hold the opposing perspective on this issue."
+},
+
+{ 
+  "speaker": "",
+  "time": "09:26",
+  "startTime": "09:26",
+  "duration": "19 seconds",
+  "text": "And what we find is massive effects on how reasonable and thoughtful and pleasant the original speaker is relative to their own words, which were the same exact argument, just without this expression of willingness to learn on the beginning and on the end."
+},
+
+{ 
+  "speaker": "",
+  "time": "09:47",
+  "startTime": "09:47",
+  "duration": "26 seconds",
+  "text": "And it's very interesting because it's not exactly question-asking. So, question-asking is another one of those very popular pieces of advice. Question-asking is great if it's the right kind of question. So, if I say, 'Matt, why do you believe that Palo Alto is a wonderful place to live?' That's a question. It's got a question mark at the end of it; it's fine."
+},
+
+{ 
+  "speaker": "",
+  "time": "10:13",
+  "startTime": "10:13",
+  "duration": "22 seconds",
+  "text": "I could say, 'Matt, tell me about why Palo Alto is a wonderful place to live.' It's not a question; it's a command, but it does the same work, right? I could say, 'Matt, why would you possibly believe that anybody would want to live in Palo Alto?' That's still a question, but clearly, it's not the kind of question that's going to help us resolve conflict."
+},
+
+{ 
+  "speaker": "",
+  "time": "10:35",
+  "startTime": "10:35",
+  "duration": "1 seconds",
+  "text": "Right. "
+},
+{ 
+  "speaker": "",
+  "time": "10:35",
+  "startTime": "10:35",
+  "duration": "12 seconds",
+  "text": "So, the common thread is expressing curiosity in a way that other people would recognize as curiosity, not necessarily the grammatical form of it. "
+},
+
+{ 
+  "speaker": "",
+  "time": "10:47",
+  "startTime": "10:47",
+  "duration": "19 seconds",
+  "text": "So, it's the actual displaying or demonstrating of curiosity in a way that is clearly curious and does not have some underlying hidden agenda or perhaps negative tone that matters. This is what you essentially define as conversational receptiveness, correct?"
+},
+
+{ 
+  "speaker": "",
+  "time": "11:06",
+  "startTime": "11:06",
+  "duration": "22 seconds",
+  "text": "It's very related. The technique that I just described of showing curiosity implies that you're going to ask a question and then you're going to stop talking and listen to the answer. And that's hard because most people eventually want to say what they have to say. And that's where conversational receptiveness comes in."
+},
+{ 
+  "speaker": "",
+  "time": "11:28",
+  "startTime": "11:28",
+  "duration": "24 seconds",
+  "text": "So, I think of conversational receptiveness as kind of step two in the sequence. Which is, I've shown my curiosity, you have told me what you think, I disagree, and I want to voice my disagreement in a way that will not cost me all the social capital that I just built up with all my curiosity and all my listening."
+},
+{ 
+  "speaker": "",
+  "time": "11:52",
+  "startTime": "11:52",
+  "duration": "28 seconds",
+  "text": "And so, conversational receptiveness is a set of tools that we develop for when you've already said your piece, 'I disagree,' and now I need to respond. How do I express my disagreement without hurting the relationship? And you're right, psychologically, it has very similar principles because as I'm disagreeing, I want to keep reminding my counterpart that I'm engaged with their perspective and I listened to them when they were talking."
+},
+{ 
+  "speaker": "",
+  "time": "12:20",
+  "startTime": "12:20",
+  "duration": "27 seconds",
+  "text": "So, we use a framework that we call 'I'm here' as an acronym. So, H E A R, the 'H' in here stands for hedging. Basically, words and phrases that show that you recognize that not every single thing is true 100% of the time. So, it's words like 'sometimes,' 'occasionally,' 'some people.' It's words that introduce uncertainty."
+},
+{ 
+  "speaker": "",
+  "time": "12:47",
+  "startTime": "12:47",
+  "duration": "27 seconds",
+  "text": " The 'E' stands for emphasizing agreement. The idea here is that even if we disagree dramatically about the thing we're discussing, there are some things we agree on. So, imagine that we work together and we're discussing COVID mitigation policies. You want more masking, I want less masking, or you want vaccine mandates, I don't want vaccine mandates."
+},
+{ 
+  "speaker": "",
+  "time": "13:14",
+  "startTime": "13:14",
+  "duration": "26 seconds",
+  "text": "We could disagree about the policy, but I could say something like, 'We both want to work in a place that's safe and welcoming to everyone,' or 'I agree that the last few years of the pandemic have been really hard on our company.' So, there are ways of signaling agreement without giving up on the position that you're trying to advocate for."
+},
+{ 
+  "speaker": "",
+  "time": "13:40",
+  "startTime": "13:40",
+  "duration": "37 seconds",
+  "text": "The 'A' for acknowledgment is using your own words to show that you have heard the other person. This is very related to paraphrasing. It's like, 'I understand that it's important to you that blah blah blah,' or 'You said XYZ,' or 'I hear that something something.' And I'd like to make a little bit of a disclaimer around the 'A' because there's a lot of training that you hear about where people say, 'Well, you know, you're supposed to say, 'I hear you,' and there's a good way to do it and there's a bad way to do it. "
+},
+{ 
+  "speaker": "",
+  "time": "14:17",
+  "startTime": "14:17",
+  "duration": "27 seconds",
+  "text": "The bad way is to say 'I hear you' and then you move on to making your own point. The good way is that you have to demonstrate what you heard. So, 'I hear that it's really important to you that you have the flexibility of working from home or working from the office on days that fit your family.' You have to say what it is you heard, not just assert it but actually demonstrate."
+},
+{ 
+  "speaker": "",
+  "time": "14:44",
+  "startTime": "14:44",
+  "duration": "14 seconds",
+  "text": "And then the 'R' in here stands for reframing to the positive. And essentially, what it means is avoiding contradictions and negations and using positively valanced words instead. "
+},
+{ 
+  "speaker": "",
+  "time": "14:58",
+  "startTime": "14:58",
+  "duration": "23 seconds",
+  "text": "So, instead of saying 'I completely disagree that blah blah blah,' you could say, 'Well, I think blah blah blah.' You can make the same exact point in the positive frame instead of the negative frame. And so, it just elevates the tone of the discussion a little bit, so it doesn't spiral into negativity as quickly. So, H E A R."
+},
+
+{ 
+  "speaker": "",
+  "time": "15:21",
+  "startTime": "15:21",
+  "duration": "33 seconds",
+  "text": "I love a good acronym, and I love an acronym that's well-explained, so thank you. I very much heard your definition of HERE, and I really like how it keeps us open. It keeps us focused on the issue, not the person. In many ways, this is all about an invitation to continue the dialogue in a way that is civil and respectful of the other person, while at the same time making it clear that you don't necessarily agree with the person. And I find this really valuable. "
+},
+{ 
+  "speaker": "",
+  "time": "15:54",
+  "startTime": "15:54",
+  "duration": "29 seconds",
+  "text": "I would like to switch back to this notion of conflict. You did an excellent job of distinguishing between disagreement and conflict. I would love to get some very practical bits of advice from you. When we are in conflict, when there is emotion and there is connection, and we do have strong feelings about the other person or people that we are talking to that might not be favorable or helpful, what can we do to help manage the conflict that we might find ourselves in?"
+},
+{ 
+  "speaker": "",
+  "time": "16:23",
+  "startTime": "16:23",
+  "duration": "15 seconds",
+  "text": "In the end, some conflict happens to everyone. Conflict happens the most when you really care. You care about the person, you care about the outcome, and so the people that we're closest with are the ones that get the worst of it. "
+},
+
+{ 
+  "speaker": "",
+  "time": "16:38",
+  "startTime": "16:38",
+  "duration": "22 seconds",
+  "text": "And I think there's a series of choices to be made. The first choice is, do I even want to get involved in this? Do I actually need to talk to this person? Do I need to resolve this conflict? Does it matter in some grand sense what they think of me? So, there are many instances where I think it's really advisable to walk away. "
+},
+
+{ 
+  "speaker": "",
+  "time": "17:00",
+  "startTime": "17:00",
+  "duration": "40 seconds",
+  "text": "And that being said, I think you can still walk away gracefully. You don't have to slam the door. You can say, 'Look, I understand we disagree about this, but I'd rather not talk about it anymore.' I think when you do decide to engage, people dramatically under-plan their conflict, which sounds like a crazy thing to say, but if you're going to have a difficult conversation with somebody you strongly disagree with, it makes sense to do it as in a controlled manner as possible. So well-rested, well-fed, in person are minimal requirements."
+},
+{ 
+  "speaker": "",
+  "time": "17:40",
+  "startTime": "17:40",
+  "duration": "25 seconds",
+  "text": "Thank you for that insight about the way we can approach conflict and maybe choose not to engage at all. Very important. And it's very important also, as you talked about with disagreement, to reflect on our physical and emotional state as we consider the conflicts that present themselves. What do we actually do when we're in the midst of conflict, when the conflict is actually happening?"
+},
+{ 
+  "speaker": "",
+  "time": "18:05",
+  "startTime": "18:05",
+  "duration": "37 seconds",
+  "text": "So, this is where we circle back to where we started the conversation. Once you're in that conversation, you think about how can I express my curiosity and how can I show that I really want to learn about the other person? Then, when it's my turn to talk back, how can I use conversational receptiveness in my responses? And the entire time, the question you should be asking yourself is, why would a smart, reasonable, sensible person hold the opinions that my counterpart does?"
+},
+
+{ 
+  "speaker": "",
+  "time": "18:42",
+  "startTime": "18:42",
+  "duration": "26 seconds",
+  "text": "In other words, questioning your own attributions for the disagreement and trying to pull out little nuggets from what your counterpart is saying that would help you understand why their point of view is sensible for them. And so, I think those three things really help people come out at the end having better relationships than when they started with the conversation."
+},
+
+
+{ 
+  "speaker": "",
+  "time": "19:08",
+  "startTime": "19:08",
+  "duration": "28 seconds",
+  "text": "I really, really appreciate the last bit of advice to think about why would the person hold this point of view. I think that's really powerful because that takes you away from that intense moment and gets you thinking more broadly. So you've given us advice on things to do in approaching conflict but also what we can do in the midst of conflict to get to a place of equilibrium and balance without doing too much damage."
+},
+{ 
+  "speaker": "",
+  "time": "19:36",
+  "startTime": "19:36",
+  "duration": "22 seconds",
+  "text": "Before we end, I'd like to ask you three questions, one of which is just for you, and then the others are common among all of our guests. Are you up for that? Let's do it. So I want to get a little more insight into you personally. As somebody who studies conflict and disagreement, I can imagine there's a lot of pressure on you when you are in the midst of conflict and disagreement. How do you handle that extra pressure?"
+},
+
+
+
+
+{ 
+  "speaker": "",
+  "time": "19:58",
+  "startTime": "19:58",
+  "duration": "24 seconds",
+  "text": "I think the extra pressure doesn't come from studying conflict or disagreement. I think it just comes from having a busy career. As I mentioned, I'm married, I have three daughters, I also have my 94-year-old grandmother living with us, so it is just a very busy household. And so that comes with lots of conflict, as you might imagine."
+},
+{ 
+  "speaker": "",
+  "time": "20:22",
+  "startTime": "20:22",
+  "duration": "27 seconds",
+  "text": "And I think the thing that makes me chuckle and also often gives me pause is when my kids or my husband throw my own research back at me and say, 'Mom, you are not being very receptive right now,' and I hear that on a pretty regular basis because I think doing these things is hard, and doing them again when you're tired, and when you're stressed, and when there's lots of people all talking at you at the same time, nobody's perfect at it."
+},
+{ 
+  "speaker": "",
+  "time": "20:49",
+  "startTime": "20:49",
+  "duration": "17 seconds",
+  "text": "What I try hard to do is when they call me on it, to revert back to the things that I preach to others, which is to say, 'Oh yeah, I'm not listening, am I? I'm going to stop talking now, and I'm going to try to do the thing that I teach other people to do.'"
+},
+
+{ 
+  "speaker": "",
+  "time": "21:06",
+  "startTime": "21:06",
+  "duration": "19 seconds",
+  "text": "I can so relate. My kids will often say, 'Dad, that wasn't very clear,' and yet I teach people to be clear, so I get it, and I appreciate the stresses that that brings. Let me ask question number two: who is a communicator that you admire and why?"
+},
+
+{ 
+  "speaker": "",
+  "time": "21:24",
+  "startTime": "21:24",
+  "duration": "27 seconds",
+  "text": "So, I'm sure I'm not the first of your guests to nominate this particular person, but my top choice is Michelle Obama. I think that she has an amazing way of communicating very complex ideas in a way that is just so accessible. So, her ideas aren't just simple enough for everybody to understand, but they retain their complexity and they're memorable."
+},
+
+{ 
+  "speaker": "",
+  "time": "21:54",
+  "startTime": "21:54",
+  "duration": "18 seconds",
+  "text": "I am a big fan of Michelle Obama as well for the reasons that you mentioned and I totally agree she has a way of making things accessible without making it feel like it's dumbed down our final question what are the first three ingredients that go into a successful communication recipe"
+},
+
+
+
+
+{ 
+  "speaker": "",
+  "time": "22:13",
+  "startTime": "22:13",
+  "duration": "17 seconds",
+  "text": "I would say curiosity is one respect for the amount of bandwidth your audience does or doesn't have can they follow the complex curly cues of your brain or they just sort of too tired to do that right now "
+},
+
+
+{ 
+  "speaker": "",
+  "time": "22:30",
+  "startTime": "22:30",
+  "duration": "32 seconds",
+  "text": "And the third one, I think, is the willingness to come across as a little foolish, and that could be showing vulnerability or saying, 'I'm sorry, that's not what I meant to say, let me try again,' or 'I'm sorry, last week when I yelled at you, here's what was actually going on, and that's not what I meant,' giving yourself the chance to admit imperfection so you can do better. "
+},
+{ 
+  "speaker": "",
+  "time": "23:02",
+  "startTime": "23:02",
+  "duration": "25 seconds",
+  "text": "I really like those three ingredients. Curiosity is not surprising given what you do and what you've shared with us. We have heard over and over again on this podcast that we really have to think about our audience in terms of their attitudes, their knowledge, and bandwidth; fits nicely into that. I really, really appreciate this notion of being open and humble and extending a little grace towards yourself to allow yourself to show up as human in the communication. "
+},
+{ 
+  "speaker": "",
+  "time": "23:27",
+  "startTime": "23:27",
+  "duration": "21 seconds",
+  "text": "So, that recipe is going to turn out to be a great interaction for sure, Julia. Thank you so much for your time, for your insights. The challenges that disagreement and conflict bring are omnipresent, and the tools that you've provided, the very specific actionable guidance, is helpful not just to me but hopefully to all of our listeners. Thank you very much."
+},
+
+{ 
+  "speaker": "",
+  "time": "23:48",
+  "startTime": "23:48",
+  "duration": "3 seconds",
+  "text": "Thank you, Matt, this was [Applause] terrific. "
+},
+{ 
+  "speaker": "",
+  "time": "23:50",
+  "startTime": "23:50",
+  "duration": "15 seconds",
+  "text": "Thank you for joining us for another episode of Think Fast, Talk Smart, the podcast from Stanford GSB. To learn more about handling conflict and disagreements, please listen to Episode 46 with Nir Halevi and Episode 67 with Michelle Gelfand."
+},
+{ 
+  "speaker": "",
+  "time": "24:07",
+  "startTime": "24:07",
+  "duration": "24 seconds",
+  "text": "This episode was produced by Jenny Luna, Ryan Campos, and me, Matt Abrahams. Our music is from Floyd Wonder. Please find us on YouTube and wherever you get your podcasts. Be sure to subscribe and rate us. Also, follow us on LinkedIn and Instagram and check out Faster, Smarter for deep dive videos, English language learning content, and our newsletter."
+},
+
+{ 
+  "speaker": "",
+  "time": "24:31",
+  "startTime": "24:31",
+  "duration": "17 seconds",
+  "text": "Hi, Matt here. If you're looking to stay up to date on top business news and financial headlines, you should listen to Motley Fool Money. It's a daily podcast for long-term investors hosted by a team of experienced investment analysts."
+},
+
+
+
+
+{ 
+  "speaker": "",
+  "time": "24:48",
+  "startTime": "24:48",
+  "duration": "13 seconds",
+  "text": "Each weekday, the Fools discuss the news that's moving Wall Street, zoom out on companies making headlines, and put new stocks on your radar. Plus, on weekends, they host longer-form conversations with authors and economic experts."
+},
+{ 
+  "speaker": "",
+  "time": "25:01",
+  "startTime": "25:01",
+  "duration": "23 seconds",
+  "text": "You'll even hear from guests who play a role in shaping the future, like Schwab's Chief Investment Strategist Liz Ann Saunders and my friend Charles Duhigg, who's a Pulitzer Prize-winning reporter and best-selling author. Whether you're an investing whiz or just starting out, there's something for you on Motley Fool Money. Listen wherever you get your podcasts."
+}
+
+
+
+
+
+]
