@@ -135,3 +135,9 @@ dropdownToggleIcons.forEach(function(icon) {
     });
 });
 
+
+document.getElementById('reloadPage').addEventListener('click', function() {
+    // Reload the page when the button is clicked
+    location.reload();
+});
+
