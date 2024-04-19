@@ -674,9 +674,9 @@ footer {
     }
 
     header .logo {
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-bottom: 0.9rem;
-        top: 55%;
+        top: 60%;
     }
 
     .hamburger {
@@ -843,11 +843,12 @@ footer {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    max-width: 90px;
-    min-width: 90px;
+    max-width: 70px;
+    min-width: 70px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-left: 10px;
+
 
   }
     
@@ -878,8 +879,10 @@ footer {
     outline: none;
     font-size: 1rem;
     border-radius: 5px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+
 
 
 }
@@ -906,7 +909,7 @@ footer {
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 35px;
+    margin-left: 15px;
 
   }
   
