@@ -573,6 +573,17 @@ footer {
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
 
+
+    .part1 {
+        padding: 0;
+    }
+
+    .A-container {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 10px 0;
+      }
+
     .transcript-line {
     display: inline-block;
     margin: 10px 10px 10px 10px; /* Increase the margin between transcript words */
