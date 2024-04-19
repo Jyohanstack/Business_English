@@ -572,6 +572,19 @@ footer {
 
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
+
+    .transcript-line {
+    display: inline-block;
+    margin: 10px 10px 10px 10px; /* Increase the margin between transcript words */
+    font-size: 15px !important; /* Adjust the font size */
+    line-height: 1.5;
+  }
+
+  .transcript-line strong {
+    font-size: 15px !important;
+    }
+
+    
     footer {
         padding: 10px;
     }
