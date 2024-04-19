@@ -651,8 +651,9 @@ footer {
     }
 
     header .logo {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 0.9rem;
+        top: 55%;
     }
 
     .hamburger {
