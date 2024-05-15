@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Complete Course</title>
+    <link rel="stylesheet" href="./css/media.css">
+    <style>
+        /* Your CSS styles here */
+        /*-------Transcript-----------*/
+        .I-Content {
+            background-color: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin-left: none;
+            margin-right: none;
+        }
+
+        .A-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            width: 60%;
+            padding: 5px;
+            margin: 15px 10px 10px 10px;
+            border-radius: 5px;
+        }
+
+        .B-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            width: 30%;
+            padding: 5px;
+            padding-bottom: 20px;
+            background-color: white;
+            margin: 20px 10px 10px 10px;
+            overflow-y: scroll;
+            height: 430px;
+            margin-bottom: 40px;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+        }
+
+        .YT-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+            position: relative;
+            border: 1px solid gray;
+        }
+
+        .YTtime {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .YTtime button {
+            margin: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            border: 1px solid gray;
+        }
+
+        .YTtime button:hover {
+            background-color: lightgreen;
+            color: black;
+        }
+
+        .switch {
+            border: 1px solid gray;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgba(27, 23, 23, 0.212);
+            color: gray;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .switch:hover {
+            background-color: lightgreen;
+            color: black;
+        }
+
+        .options {
+            width: 40%;
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        #video-container {
+            position: relative;
+            box-shadow: 0px 0px 10px rgb(243, 241, 241);
+            border-radius: 5px;
+            height: 450px;
+            width: 800px;
+        }
+
+        #player {
+            border-radius: 10px;
+            border: 2px solid #E6E6FA;
+            height: 100%;
+            width: 100%;
+        }
+
+        .button-options {
+            position: relative;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        #transcript-container {
+            width: 100%;
+            white-space: normal;
+            padding: 10px;
+            overflow: hidden;
+            line-height: 1.1;
+        }
+
+        .transcript-line {
+            display: inline-block;
+            margin: 10px 10px 10px 10px; /* Increase the margin between transcript words */
+            font-size: 20px; /* Adjust the font size */
+            font-style: normal;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .transcript-line strong {
+            font-size: 18px;
+        }
+
+        /* Style the underline for the currently spoken text */
+        .transcript-line span.underline {
+            text-decoration: underline;
+        }
+
+        /*----------------------End of transcript---------------------------*/
+
+        /* Reset default browser styles and set initial font */
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Set font for the entire page */
+            background-color: #fcfcff; /* Set background color for the entire page */
+            display: flex; /* Use flex layout */
+            flex-direction: column; /* Stack elements vertically */
+            height: 100vh;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between; /* Change this line */
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-color: none;
+        }
+
+        .play {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .click-play .point:hover {
+            background-color: #132536;
+            color: white;
+        }
+
+        .click-play .point {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 500;
+            background-color: #2C3E50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content1 img {
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .content1 .subject {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            padding: 20px;
+            color: black;
+            background-color: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 60px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
+</head>
+<body>
+    <div class="I-Content" id="content">
+        <div class="A-container">
+            <div id="video-container">
+                <div id="player"></div>
+            </div>
+            <div class="button-options">
+                <div class="options">
+                    <button class="switch" id="reloadButton">Load YouTube Video</button>
+                </div>
+                <div class="options">
+                    <a href="https://youtu.be/VAqL8qo7eFs" target="_blank"><button class="switch">Go to Youtube Channel</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="B-container">
+            <div id="transcript-container">
+                <!-- Transcript lines will be added dynamically -->
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+<script id="lessonTranscript" type="application/json">
+    [
+  
+ 
+    { 
+    "speaker": "Matt Abrahams",
+    "time": "00:00:",
+      "startTime": "00:01",
+      "duration": 24,
+      "text": "Welcome to Think Fast Talk Smart, a podcast designed to hone your communication skills. My name is Matt Abrahams. I'm a lecturer here at Stanford's Graduate School of Business where I teach strategic communication, and I'll be inviting my colleagues and experts in to talk about best practices you can use to become a more confident authentic and compelling communicator."
+    },
+  
+    { 
+      "time": "00:25:",
+      "speaker": "",
+    "startTime": "00:25",
+    "duration": 31,
+    "text": "When we think about our communication at work, we tend to focus on our presentations and meeting contributions that we know we should spend time preparing and practicing for. But if you think about it, most of our professional communication is spontaneous in nature. It's providing feedback in the moment, answering questions, introducing people. These spur-of-the-moment communication events can be as important if not even more important than our planned high stakes communications. For most people these impromptu situations are quite challenging."
+  },
+  
+  { 
+      "time": "00:56:",
+      "speaker": "",
+    "startTime": "00:56",
+    "duration": 28,
+    "text": "I am thrilled to invite two experts and good friends here today to talk about how we can become more comfortable and confident in these spur-of-the-moment situations. Let me start by introducing Adam Tobin. Adam's a senior lecturer in film and media studies here at Stanford University and he's a teacher in continuing studies. Dan Klein is also a lecturer at Stanford both at the graduate school of business as well as theater and performance studies, and Dan also is an instructor at the d school. Adam and Dan, thanks for being here."
+  },
+  
+  { 
+      "time": "01:27:",
+      "speaker": "Adam Tobin",
+    "startTime": "01:27",
+    "duration": 1,
+    "text": "Thank you."
+  },
+  
+  { 
+      "time": "01:28:",
+      "speaker": "Dan Klein",
+    "startTime": "01:28",
+    "duration": 1,
+    "text": "Thank you. Glad to be here."
+  },
+  
+  { 
+      "time": "01:29:",
+      "speaker": "Matt Abrahams",
+    "startTime": "01:29",
+    "duration": 14,
+    "text": "We all are involved with situations where the students we teach or the clients we coach feel challenged by spontaneous speaking. Can you share a little bit about where you think that challenge comes from? Why is this type of speaking so hard?"
+  },
+  
+  { 
+      "time": "01:43:",
+      "speaker": "Dan Klein",
+    "startTime": "01:43",
+    "duration": 14,
+    "text": "There's a moment when we feel that the pressure is on. It's like everyone's attention is on us, and we have to perform. And the moment we have that self-conscious awareness, it's like our brain starts to short circuit. We go into a different set of systems; we're thinking about ourselves, we're thinking about how it looks, how we did. Sometimes we see this in with improvisers specifically. There's another problem where if the pressure's on and you think you did really well, that also short-circuits your ability to be present and in the moment. "
+  },
+  
+  { 
+      "time": "02:14:",
+      "speaker": "Adam Tobins",
+    "startTime": "02:14",
+    "duration": 33,
+    "text": "And it's amazing, people can shut down or sometimes people can talk too much, where they can get, you know, their voice can get higher or lower. It's like their mind-body is running away from them; it's doing everything except kind of what they need to do in the moment. But we are experts at that because for most of the time, we're improvising. You know, nobody wakes up and writes the script of the day and everyone else goes along with that script. We're actually experts at improvising; it's just when we get put on the spot."
+  },
+  
+  { 
+      "time": "02:48:",
+      "speaker": "Dan Klein",
+    "startTime": "02:48",
+    "duration": 8,
+    "text": "And when Adam says 'we are experts', he doesn't mean me and Adam; he means, like, humanity."
+  },
+  
+  { 
+      "time": "02:56:",
+      "speaker": "Adam Tobin",
+    "startTime": "02:56",
+    "duration": 2,
+    "text": "Right. We are experts."
+  },
+  
+  { 
+      "time": "02:59:",
+      "speaker": "Matt Abrahams",
+    "startTime": "02:59",
+    "duration": 31,
+    "text": "And we see this in lots of high-stakes situations. I think of athletes who, for years, have been practicing what they do. But in that high-stakes situation, that pitch, that putt, where all of a sudden they fail or they struggle because of that over-awareness that you're talking about. Before we start getting into specific tips and tricks about how to manage in these situations, I really think a lot of what you guys teach has to do with mindset and approach. Would you guys like to talk about that approach that you take?"
+  },
+  
+  { 
+      "time": "03:32:",
+      "speaker": "Adam Tobins",
+    "startTime": "03:32",
+    "duration": 31,
+    "text": "One of my favorite stories is that when I first moved to the Bay Area before GPS, that's how ancient it was, I would go to San Francisco and every time I would get lost, every single time. And it wasn't until the seventh or eighth time that I got lost and I looked up and I said, 'I don't know where I am, but I've been lost here before. And if I just make a right and a right, I'll get back on the freeway and I know how to get home.' And for me, that was a mindset shift. That was, I don't need to have all the answers, I need to be present enough to kind of find a way to solve the answers. I need to be okay enough, comfortable enough being uncomfortable that I can plug in."
+  },
+  
+  { 
+      "time": "04:19:",
+      "speaker": "Adam Tobins",
+    "startTime": "04:19",
+    "duration": 14,
+    "text": "And our mentor, Patricia Ryan Madson, who wrote this great book, Improv Wisdom, when I told her that story, she said, 'No, no, you've missed the point. The point is to get lost on purpose and discover what you find.' And for me, that was another mindset shift."
+  },
+  
+  { 
+      "time": "04:35:",
+      "speaker": "Dan Klein",
+    "startTime": "04:35",
+    "duration": 31,
+    "text": "I love that. I've been trying to run a little bit more in my life. I probably started running after GPS, so, um, and I find that it's really exciting to go out and try to get a little bit lost. I was running near my house the other day in Oakland, and I was gonna go the way I know to get home, and I thought, well, I'll just, I'll just get a little bit lost. And I turned right, and literally half a block, they made a native plants park in between two streets. It was 10 yards away from where I was, and I had a walk in nature, completely transported, and I would have never had that if my mindset wasn't to get a little bit lost, like take the slightly less traveled path."
+  },
+  
+  { 
+      "time": "05:15:",
+      "speaker": "Adam Tobins",
+    "startTime": "05:15",
+    "duration": 11,
+    "text": "And in speaking, if you're present, if you go just a little bit someplace you hadn't gone before, it may feel terrifying at first, but you're only going to discover new things that way."
+  },
+  
+  { 
+      "time": "05:26:",
+      "speaker": "Matt Abrahams",
+    "startTime": "05:26",
+    "duration": 27,
+    "text": "That, I think, is really the crux of what hinders a lot of people in these situations: the ability to let go. There is such pressure to do it right. The expectation is that I've been asked to do this, or I need to do this, and I want to do it right. And I know, in your experience and in a lot of the improvisation that you bring to the work you do, letting go of getting it right is really important. So can you share some ideas about how we get out of our own way?"
+  },
+  
+  { 
+      "time": "05:56:",
+      "speaker": "",
+    "startTime": "05:56",
+    "duration": 11,
+    "text": "There's a wonderful saying that comes from the world of improv, and I'd love to hear your thoughts on this: the notion of 'dare to be dull.' And when I have the audacity to be in front of my MBA students and say 'dare to be dull,' it sucks the air right out of the room because I immediately have to follow it up with 'why.' And would one of you like to help articulate why daring to be dull is so liberating?"
+  },
+  
+  { 
+      "time": "06:19:",
+      "speaker": "Dan Klein",
+    "startTime": "06:19",
+    "duration": 11,
+    "text": "That is liberating because it takes the pressure off. We are so driven to be interesting. Our mentor Patricia Ryan Madsen, she had a mentor in improvisation, Keith Johnstone, so he's like our grand mentor. And he said, these like our fear of being seen as unoriginal is one of the most inhibiting fears that we carry. And so the idea of like 'dare to be dull' or 'be obvious' is the most powerful creative mantra that there is. He said, 'When you're trying to be original, you sound like everyone else trying to be original. But when you're obvious, you're yourself. And that's what's genuine. And if the obvious thing you say is what everyone else was thinking, then they'll just think you're brilliant for saying it. And if your obvious thing is different, then that's actually genuinely original.'"
+  },
+  
+  { 
+      "time": "07:10:",
+      "speaker": "Adam Tobin",
+    "startTime": "07:10",
+    "duration": 11,
+    "text": "Right, and that obvious thing is kind of your voice, right? But it's also true; you're not putting on any kind of fake version of yourself to try to impress people. You're actually dealing with what's going on, what's in your head, what your reaction to the thing is."
+  }
+  
+  
+  
+  
+  
+  ]
+  
+  
+    </script>
+    
+
+<script>
+    
+
+const transcriptContainer = document.getElementById("transcript-container");
+const video = document.getElementById('player');
+const player = new YT.Player(video, {
+    height: '100%',
+    width: '100%',
+    videoId: 'g3JRONajB7w', // Replace with your video ID
+    playerVars: {
+        'controls': 1,
+        'disablekb': 1,
+        'modestbranding': 1,
+        'rel': 0,
+        'showinfo': 0
+    },
+    events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+    }
+});
+
+function onPlayerReady(event) {
+    event.target.playVideo();
+    loadTranscriptData(); // Load transcript data after the video is ready
+}
+
+function onPlayerStateChange(event) {
+    if (event.data === YT.PlayerState.PLAYING) {
+        setInterval(updateTranscriptUnderline, 100);
+    }
+}
+
+function loadTranscriptData() {
+    // Get the JSON data embedded in the HTML script tag
+    const jsonData = document.getElementById("lessonTranscript").textContent;
+    
+    // Parse the JSON data
+    const data = JSON.parse(jsonData);
+
+    // Process each entry in the JSON data
+    data.forEach(entry => {
+        const p = document.createElement("p");
+        p.classList.add("transcript-line");
+
+        const speakerName = document.createElement("strong");
+        speakerName.textContent = entry.speaker + " ";
+        speakerName.style.fontWeight = "bold";
+        speakerName.style.color = "darkred";
+        p.appendChild(speakerName);
+
+        const speakerTime = document.createElement("strong");
+        speakerTime.textContent = entry.time;
+        speakerTime.style.fontWeight = "lighter";
+        speakerTime.style.color = "red";
+        speakerTime.style.cursor = "pointer";
+        speakerTime.addEventListener("click", () => {
+            const timeInSeconds = parseTime(entry.time);
+            goToTime(timeInSeconds);
+        });
+        p.appendChild(speakerTime);
+
+        const transcriptText = entry.text;
+        const textParts = transcriptText.split(" ");
+        textParts.forEach((word, index) => {
+            const span = document.createElement("span");
+            span.textContent = " " + word;
+            span.setAttribute("data-start-time", entry.startTime);
+            span.setAttribute("data-duration", entry.duration);
+            p.appendChild(span);
+        });
+
+        transcriptContainer.appendChild(p);
+    });
+}
+
+
+
+
+
+function updateTranscriptUnderline() {
+    // Get the current playback time of the video
+    const currentTime = player.getCurrentTime();
+    
+    // Select all the lines in the transcript container
+    const transcriptLines = transcriptContainer.querySelectorAll(".transcript-line");
+
+    // Initialize a variable to store the currently highlighted line
+    let highlightedLine = null;
+
+    // Find the currently highlighted line based on the video playback time
+    for (let i = 0; i < transcriptLines.length; i++) {
+        const line = transcriptLines[i];
+        const lineStartTime = parseTime(line.querySelector("span").getAttribute("data-start-time"));
+        const lineDuration = parseInt(line.querySelector("span").getAttribute("data-duration"));
+
+        // Check if the current time falls within the time range of the transcript line
+        if (currentTime >= lineStartTime && currentTime < lineStartTime + lineDuration) {
+            highlightedLine = line;
+            break;
+        }
+    }
+
+    if (highlightedLine) {
+        // Remove previous highlights from all transcript lines
+        transcriptLines.forEach(line => {
+            line.style.backgroundColor = ""; // Reset background color for all lines
+            line.style.padding = ""; // Reset padding for all lines
+        });
+
+        // Change background color and add padding to the highlighted line
+        highlightedLine.style.backgroundColor = "rgb(164, 244, 241)";
+        highlightedLine.style.padding = "10px";
+    }
+}
+
+
+
+function parseTime(timeString) {
+    const parts = timeString.split(":");
+    const minutes = parseInt(parts[0]);
+    const seconds = parseInt(parts[1]);
+    return minutes * 60 + seconds;
+}
+
+// Function to go to a specific time in the video
+function goToTime(seconds) {
+    player.seekTo(seconds);
+}
+
+
+ // Add an event listener to the button
+ document.getElementById("reloadButton").addEventListener("click", function() {
+    // Reload the page
+    location.reload();
+});
+
+</script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC8FxZ48kdaX2DYYLH3dpYyAFtlV8RRqU0",
+      authDomain: "jyohan-stutorials.firebaseapp.com",
+      projectId: "jyohan-stutorials",
+      storageBucket: "jyohan-stutorials.appspot.com",
+      messagingSenderId: "215035076429",
+      appId: "1:215035076429:web:6c4ab10dbc8a77e9642104",
+      measurementId: "G-N7Z0N2K1ZG"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>

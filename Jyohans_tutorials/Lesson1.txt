@@ -1,0 +1,144 @@
+[
+  
+ 
+  { 
+  "speaker": "",
+  "time": "00:00:",
+    "startTime": "00:00",
+    "duration": 9,
+    "text": "Hey, what's going on everybody? It's Bro. Hope you're doing well. In this video, I'm going to help you get started with Python. So sit back, relax, and enjoy the show."
+  },
+
+  { 
+    "time": "00:09:",
+    "speaker": "",
+  "startTime": "00:25",
+  "duration": 31,
+  "text": "If you wouldn't mind, please like, comment, and subscribe. One like equals one prayer for the YouTube algorithm."
+},
+
+{ 
+    "time": "00:56:",
+    "speaker": "",
+  "startTime": "00:56",
+  "duration": 28,
+  "text": "I'm gonna tell you why you need to learn Python. It's the easiest programming language to learn, as well as being the most popular in the world right now. And according to Glassdoor, the salary for new Python developers in the United States is $64,000. If any of this sounds good to you, well then let's get started. "
+},
+
+{ 
+    "time": "01:27:",
+    "speaker": "",
+  "startTime": "01:27",
+  "duration": 1,
+  "text": "If you need to download Python, go to python.org/downloads and click this yellow 'Download Python' button. Open when done, check 'Add Python 3.9' or another version to path, install now, and then give it a little bit. It says here that setup was successful, so let's close out of this. "
+},
+
+{ 
+    "time": "01:28:",
+    "speaker": "",
+  "startTime": "01:28",
+  "duration": 1,
+  "text": "Our next step is to download an IDE, that's an acronym for Integrated Development Environment. Think of it as software that helps us write other software. One IDE that I recommend is PyCharm. You can find it at jetbrains.com/pycharm. Go to download. If you would like to pay for a professional version, you can click this 'Download' button. But since I don't like to pay for things, I'm going to use the free community version."
+},
+
+{ 
+    "time": "01:29:",
+    "speaker": "",
+  "startTime": "01:29",
+  "duration": 14,
+  "text": "At this point, we just have to follow the standard installation procedure. Click 'Next'. You can pick a destination folder, but I'll keep the default. Next, if you would like a desktop shortcut, then check this. I would also recommend updating the path variable. Next, install, and then give it a minute or two. Then after finishing, I have a desktop shortcut, so I can just click on this to run PyCharm."
+},
+
+{ 
+    "time": "01:43:",
+    "speaker": "",
+  "startTime": "01:43",
+  "duration": 14,
+  "text": "Let's create a new project. Name this project whatever you like. I'm going to name this project 'Hello World', and I recommend not creating a 'main.py' welcome script right now. I'll show you how to do that manually. Let's create.  "
+},
+
+{ 
+    "time": "02:14:",
+    "speaker": "",
+  "startTime": "02:14",
+  "duration": 33,
+  "text": "If you need a Python file to work with, this is how to create one. Go to 'File', 'New', 'Python File'. And I'm going to name this 'main', and then click 'Python File'."
+},
+
+{ 
+    "time": "02:48:",
+    "speaker": "",
+  "startTime": "02:48",
+  "duration": 8,
+  "text": "Alright, ladies and gentlemen, we now have an empty Python script that we can use to begin coding. Now, if you checked this box 'Create a main.py welcome script' and then created a new project, then your main Python file will probably look a little something like this, but that's completely fine. We can just delete this."
+},
+
+{ 
+    "time": "02:56:",
+    "speaker": "",
+  "startTime": "02:56",
+  "duration": 2,
+  "text": "I don't know about you guys, but the font is very small for me, so let's change that. We can change that by going to 'File', 'Settings', 'Editor', 'Font', and you can increase the font size. Let's say 25. You can also change the font, too. What's a good one? How about that? Then click 'Apply' and 'OK'."
+},
+
+{ 
+    "time": "02:59:",
+    "speaker": "",
+  "startTime": "02:59",
+  "duration": 31,
+  "text": "Much better! We can actually see something. To run a Python script, just click the 'Play' button in the corner. Alternatively, you can go to the 'Run' tab and then go to 'Run'."
+},
+
+{ 
+    "time": "03:32:",
+    "speaker": "",
+  "startTime": "03:32",
+  "duration": 31,
+  "text": "Okay, so this box that appeared at the bottom, this is referred to as a terminal window. This will display any output that your program has. And this line at the end, 'Process finished with exit code 0', that just means that there were no errors in this program."
+},
+
+{ 
+    "time": "04:19:",
+    "speaker": "",
+  "startTime": "04:19",
+  "duration": 14,
+  "text": "Currently, this program doesn't do anything, but let's change that. Let's print something. Let's print a message. So to print a message to the terminal window, type 'print' and then add a set of parentheses, and then you can type a message, but it has to be within quotes, either double quotes or single quotes, it doesn't matter. So let's think of a message. I don't know, 'I love pizza'. Then let me run this, and in my terminal window, it says, 'I love pizza'."
+},
+
+{ 
+    "time": "04:35:",
+    "speaker": "",
+  "startTime": "04:35",
+  "duration": 31,
+  "text": "To print another line, just add another print statement. Print and then your message within quotes. 'It's really good'. And well, what do you know, it printed, 'I love pizza. It's really good'."
+},
+
+{ 
+    "time": "05:15:",
+    "speaker": "",
+  "startTime": "05:15",
+  "duration": 11,
+  "text": "So, ladies and gentlemen, you just wrote your first Python program. By the way, you can change the font as well as the font color of your terminal window by going to 'File', 'Settings', then go to 'Editor', 'Color Scheme', 'Console Font', and 'Console Colors'."
+},
+
+{ 
+    "time": "05:26:",
+    "speaker": "",
+  "startTime": "05:26",
+  "duration": 27,
+  "text": "Let's change the font. Let's say I would like whatever this font is. Then click 'Apply'. Let's change the font color, too, by going to 'Console Colors'. For any output, you can click number two and select a color. Let's say I would like bright green. That should be decent. And for anything else, let's say this will be a dark color so I can barely see it. So then let's click 'Apply' and 'OK'."
+},
+
+{ 
+    "time": "05:56:",
+    "speaker": "",
+  "startTime": "05:56",
+  "duration": 11,
+  "text": "Oh yeah, that's much better.Well, everybody, that was your very first Python program. I'll post any useful links and timestamps for this video in the comments section down below. But yeah, welcome to coding with Python."
+}
+
+
+
+
+
+]
